@@ -18,16 +18,16 @@ class ItemCard extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: Container(
-              padding: EdgeInsets.all(kDefaultPadding),
+              padding: EdgeInsets.all(kDefaultPadding / 1.2),
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                     begin: Alignment.topRight,
                     end: Alignment.bottomLeft,
                     colors: [
-                      city.color1.withOpacity(0.7),
-                      city.color2.withOpacity(0.7)
+                      city.color1.withOpacity(0.5),
+                      city.color2.withOpacity(0.5)
                     ]),
-                borderRadius: BorderRadius.circular(16),
+                borderRadius: BorderRadius.circular(25),
               ),
               child: Image.asset(
                 city.image,
