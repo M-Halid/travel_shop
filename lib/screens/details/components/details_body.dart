@@ -58,13 +58,13 @@ class DetailsBody extends StatelessWidget {
                           SizedBox(
                             width: kDefaultPadding,
                           ),
-                          Padding(
-                            padding: const EdgeInsets.only(top: 50),
+                          Expanded(
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(15),
-                              child: Image.asset(
-                                city.image,
-                                width: 210,
+                              child: Hero(
+                                tag: city.id,
+                                child:
+                                    Image.asset(city.image, fit: BoxFit.fill),
                               ),
                             ),
                           )
