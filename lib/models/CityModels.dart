@@ -25,7 +25,7 @@ List<City> cities = [
     price: "119,99 €",
     description: "Hi This City Looks cool",
     size: 50,
-    color1: Colors.blue,
+    color1: Colors.lightBlue.shade400,
     color2: Colors.white,
   ),
   City(
@@ -44,7 +44,7 @@ List<City> cities = [
       price: "499,99 €",
       description: "Hi This City Looks cool",
       size: 50,
-      color1: Colors.blue,
+      color1: Colors.lightBlue.shade400,
       color2: Colors.orange),
   City(
       id: 4,
@@ -53,7 +53,7 @@ List<City> cities = [
       price: "899,99 €",
       description: "Hi This City Looks cool",
       size: 50,
-      color1: Colors.blue,
+      color1: Colors.lightBlue.shade400,
       color2: Colors.yellow.shade800),
   City(
     id: 5,
@@ -62,7 +62,7 @@ List<City> cities = [
     price: "699,99 €",
     description: "Hi This City Looks cool",
     size: 50,
-    color1: Colors.blue,
+    color1: Colors.lightBlue.shade400,
     color2: Colors.green,
   ),
   City(
@@ -72,7 +72,7 @@ List<City> cities = [
     price: "109,99 €",
     description: "Hi This City Looks cool",
     size: 50,
-    color1: Colors.lightBlue,
+    color1: Colors.lightBlue.shade400,
     color2: Colors.white,
   ),
   City(
@@ -82,7 +82,7 @@ List<City> cities = [
     price: "599,99 €",
     description: "Hi This City Looks cool",
     size: 50,
-    color1: Colors.blue,
+    color1: Colors.lightBlue.shade400,
     color2: Colors.green,
   ),
   City(
@@ -92,7 +92,7 @@ List<City> cities = [
     price: "399,99 €",
     description: "Hi This City Looks cool",
     size: 50,
-    color1: Colors.blue,
+    color1: Colors.lightBlue.shade400,
     color2: Colors.orange,
   ),
   City(
@@ -102,7 +102,7 @@ List<City> cities = [
       price: "899,99 €",
       description: "Hi This City Looks cool",
       size: 50,
-      color1: Colors.white,
+      color1: Colors.green,
       color2: Colors.grey),
   City(
       id: 10,
@@ -111,7 +111,7 @@ List<City> cities = [
       price: "199,99 €",
       description: "Hi This City Looks cool",
       size: 50,
-      color1: Colors.lightBlue,
+      color1: Colors.lightBlue.shade400,
       color2: Colors.white),
   City(
       id: 11,
@@ -120,7 +120,7 @@ List<City> cities = [
       price: "169,99 €",
       description: "Hi This City Looks cool",
       size: 50,
-      color1: Colors.blue,
+      color1: Colors.lightBlue.shade400,
       color2: Colors.yellow),
   City(
       id: 12,
@@ -129,6 +129,6 @@ List<City> cities = [
       price: "849,99 €",
       description: "Hi This City Looks cool",
       size: 50,
-      color1: Colors.purple.shade300,
+      color1: Colors.lightBlue.shade400,
       color2: Colors.greenAccent),
 ];

@@ -10,7 +10,7 @@ class DetailsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xff3776A6),
+      backgroundColor: city.color1,
       appBar: buildAppbar(context),
       body: DetailsBody(
         city: city,
@@ -20,7 +20,7 @@ class DetailsScreen extends StatelessWidget {
 
   AppBar buildAppbar(BuildContext context) {
     return AppBar(
-      backgroundColor: Color(0xff3776A6),
+      backgroundColor: city.color1,
       elevation: 0,
       leading: IconButton(
         icon: Icon(
@@ -41,6 +41,7 @@ class DetailsScreen extends StatelessWidget {
             )),
         SizedBox(
           width: kDefaultPadding / 2,
+          
         )
       ],
     );

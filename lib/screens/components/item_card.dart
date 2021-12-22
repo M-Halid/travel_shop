@@ -18,7 +18,7 @@ class ItemCard extends StatelessWidget {
         children: <Widget>[
           Expanded(
             child: Container(
-              padding: EdgeInsets.all(kDefaultPadding / 1.2),
+              padding: EdgeInsets.all(kDefaultPadding / 3),
               decoration: BoxDecoration(
                 gradient: LinearGradient(
                     begin: Alignment.topRight,
@@ -29,9 +29,12 @@ class ItemCard extends StatelessWidget {
                     ]),
                 borderRadius: BorderRadius.circular(25),
               ),
-              child: Image.asset(
-                city.image,
-                fit: BoxFit.cover,
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(25),
+                child: Image.asset(
+                  city.image,
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
           ),
